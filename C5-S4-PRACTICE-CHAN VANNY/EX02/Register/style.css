@@ -1,0 +1,67 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+}
+form{
+    display: flex;
+    width: 70%;
+    height: 75vh;
+}
+.user-login{
+    width: 40%;
+}
+.pn{
+    background-color:rgb(8, 152, 160);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    border: 1px solid gainsboro;
+    border-radius: 15px 0 0 15px;
+}
+.pn img{
+    margin-top: 20px;
+    width: 25%;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+p{
+    color: white;
+    text-align: center;
+}
+.user-login{
+    border: 1px solid gainsboro;
+    border-radius: 0 15px 15px 0;
+}
+.user-login h1{
+    color: rgb(8, 152, 160);
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user-name,.register,.login,.rememberme{
+    padding: 10px;
+}
+.user-name input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-bottom: 1px solid;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    width: 60%;
+    height: 30px;
+    border-radius: 15px;
+    border: 1px solid rgb(8, 152, 160);
+}
+.user-login h1{
+    margin-top: 25px;
+}
